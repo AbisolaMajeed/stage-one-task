@@ -12,4 +12,4 @@ Route::get('/', function(){
     return "Welcome to ".config('app.name')." (Application Programming Interface)";
 });
 
-Route::get('/api/hello', [HomeController::class, 'getDetails']);
+Route::get('/hello', [HomeController::class, 'getDetails']);
