@@ -8,4 +8,4 @@ use Illuminate\Support\Facades\Route;
 //     return "Welcome to ".config('app.name')." (Application Programming Interface)";
 // });
 
-Route::get('/', [HomeController::class, 'getDetails']);
+Route::get('/hello', [HomeController::class, 'getDetails']);
